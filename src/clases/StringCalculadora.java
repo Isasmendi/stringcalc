@@ -30,13 +30,13 @@ public class StringCalculadora {
             }
         }
     }
-
+/*
     private String sacarCaracteresEspeciales(String string) {
         Pattern patron = Pattern.compile(" |#|%|&|:|[*]|\n|;|/");
         Matcher encaja = patron.matcher(string);
         return encaja.replaceAll(",");
     }
-
+*/
     private int sumarString(String frac) {
         int valor_acumulado = 0;
         int primer_index = 0;
